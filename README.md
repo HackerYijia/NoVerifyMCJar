@@ -10,7 +10,9 @@ Check in Releases for the newest release. I will probably not update this, but i
 
 ## Releases
 
-Check the [Releases](https://github.com/HackerYijia/NoVerifyMCJar/releases) page for the latest version.
+Check the [Releases](https://github.com/HackerYijia/NoVerifyMCJar/releases) page for the latest stable failure version.
+
+Alternatively, check in the Releases folder located in the source, for the latest working version.
 
 ## License
 

@@ -1,11 +1,25 @@
-// MCNoVerifer 0.1.2 Maded by NotJunar/HackerYijia
+// MCNoVerifer Made by HackerYijia / NotJunar
 import java.io.IOException;
+
 public class ServerWrapper {
     public static void main(String[] args) {
         String[] command = new String[] {
-            "java", "-noverify", "-Xms128M", "-Xmx4096M",
-            "-Dterminal.jline=false", "-Dterminal.ansi=true",
-            "-jar", "carbonspigot.jar"
+            "java", 
+            "-noverify", 
+            "-Xloggc:gc.log", 
+            "-verbose:gc", 
+            "-XX:+PrintGCDetails", 
+            "-XX:+PrintGCDateStamps", 
+            "-XX:+PrintGCTimeStamps",
+            "-XX:+UseGCLogFileRotation", 
+            "-XX:NumberOfGCLogFiles=5", 
+            "-XX:GCLogFileSize=1M", 
+            "-Xms128M", 
+            "-Xmx3800M", 
+            "-Dterminal.jline=false", 
+            "-Dterminal.ansi=true", 
+            "-jar", 
+            "server.jar"
         };
 
         try {
