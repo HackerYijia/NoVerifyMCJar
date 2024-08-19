@@ -6,7 +6,7 @@ You probably won't get in trouble using this. This is a custom server JAR meant 
 
 ## Usage
 
-Check in Releases for the newest release. I will probably not update this, but I will not make a RAM hacker if you need a new feature that is not abusive, such as a DDOS bot or a ram hacker. If you need a SlimeWorld patcher, I am already making that.
+Check in Releases for the newest release. I will probably not update this, but if you need a new feature that is not abusive, hit me up, I am not making jar wrappers such as a DDOS bot or a ram hacker. If you need a SlimeWorld patcher, I am already making that.
 
 ## Releases
 
